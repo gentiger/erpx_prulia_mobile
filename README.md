@@ -1,4 +1,4 @@
-# erpx_prulia_mobile
+# ERPX PRULIA Mobile
 ### Mobile app for PRULIA ERPX Client
 
 This is a Cordova based container for PRULIA ERPX Client
