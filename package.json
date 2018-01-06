@@ -1,0 +1,25 @@
+{
+  "name": "com.erpx.client.prulia",
+  "version": "0.0.1",
+  "displayName": "Prulia",
+  "cordova": {
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-statusbar": {}
+    }
+  },
+  "dependencies": {
+    "cordova-android": "^7.0.0",
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-file": "^6.0.0",
+    "cordova-plugin-inappbrowser": "^2.0.0",
+    "cordova-plugin-statusbar": "~2.4.0",
+    "cordova-plugin-whitelist": "1"
+  }
+}

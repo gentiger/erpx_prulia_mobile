@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html style="height: 100%;">
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'
+          data: gap: https://ssl.gstatic.com 'unsafe-eval';
+          script-src 'self' 'unsafe-eval' 'unsafe-inline' *;
+          style-src 'self' 'unsafe-inline' *; media-src *;
+          connect-src 'self' *; img-src 'self' *; font-src 'self' *;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1,
+            maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+        <link rel="stylesheet" type="text/css" href="css/octicons/octicons.css">
+        <title>PRULIA</title>
+        <script>
+			window.frappe = {};
+			frappe.ready_events = [];
+			frappe.ready = function(fn) {
+				frappe.ready_events.push(fn);
+			}
+    </script>
+    </head>
+    <body data-path="me" style="height: 100%;">
+    	<div class="splash" style="height: 100%;">
+            <table style="height: 100%; width: 100%;"><tr>
+                <td style="text-align: center; vertical-align: middle;">
+                    <img src="img/Prulia-word-logo.png"
+                      style="max-width: 100%; margin-top: -20%;">
+                </td>
+            </tr></table>
+        </div>
+    	<div class="offcanvas-container">
+    		<div class="offcanvas">
+    			<div class="offcanvas-main-section">
+    				<header></header>
+    				<div id="hero-and-content"></div>
+    				<footer class="web-footer"></footer>
+    			</div>
+    		</div>
+    	</div>
+    </body>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/me.js"></script>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'
+        data: gap: http://167.88.124.17 https://ssl.gstatic.com;
+        script-src 'self' 'unsafe-eval' *; style-src 'self' 'unsafe-inline' *;
+        media-src *; connect-src 'self' *; font-src 'self' *;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>PRULIA</title>
+    </head>
+    <body>		
+        <div class="app container hide">
+            <div class="div-login hide vertical-center">            
+                <p class="title">Sign in to PRULIA App</p>
+                <form>
+                    <div class="form-group">
+                        <input class="form-control is-valid"
+                            id="usr" placeholder="Email or Agent ID">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control"
+                            id="pwd" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-login">
+                        Login</button>
+                </form>
+                <p>
+                    <br><a href="#" class="signup">New User Sign up</a>
+                    <br>
+                    <br>
+                    <br><a href="#" class="forgotpass">Forgot Password?</a>
+                </p>
+            </div>
+        	<div class="div-resetpassword hide vertical-center">
+                <p class="title">Reset Password</p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" required
+                            id="reset_email" placeholder="resetpassword@prulia.com.my">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-reset-password">
+                        Send Password</button>
+                    <button type="button" class="btn btn-default btn-reset-password-cancel">
+                        Cancel</button>
+                </form>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/login.js"></script>
+    <script>
+    	document.addEventListener('deviceready', app.init, false);
+    </script>
+</html>
